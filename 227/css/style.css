@@ -1,0 +1,93 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a{
+    color: brown;
+    text-decoration: none;
+    border: 1px solid brown;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 8em;
+}
+
+header{
+    padding-top:30px;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background-color:beige ;
+}
+
+footer {
+    background-color: blanchedalmond;
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+    text-align: center;
+}
+
+.profession{
+    padding:30px 20px;
+    margin: 40px;
+    display: grid;
+    background: linear-gradient(pink, beige);
+    border-radius: 100px;
+}
+
+body{
+    background: beige;
+    min-width: 800px;
+}
+
+h1{
+    text-align: center;
+}
+
+.speaker-info {
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    margin-top: 5em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.speaker-info img {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    margin: -3em 0 2em 0;
+    vertical-align: top;
+}
+
+.grid_speakers {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+div{
+    margin: 100px;
+}
+
+.aria{
+    display: flex;
+    gap: 6em;
+    margin: auto 3em;
+}
+
+.aria div{
+    margin: 0px;
+}
+
+.aria h2{
+    margin-bottom: 1em;
+}
